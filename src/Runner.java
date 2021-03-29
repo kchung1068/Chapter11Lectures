@@ -1,8 +1,12 @@
 public class Runner {
     public static void main(String[] args) {
-        Person p = new Person();
-        Student s = new Student();
-        Object[] j =  {5, "T", 6.7, true};
+    FirstClassSeat s1 = new FirstClassSeat();
 
+    s1.fillSeat();
+    //If the classes have exactly the same method, the child's method runs.
+        Seat s = new Seat();
+        s.fillSeat();
+//If the parent's method is called, the parent's method runs.
+        //This is overwriting
     }
 }

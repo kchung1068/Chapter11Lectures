@@ -5,5 +5,10 @@ public class Shape {
     }
     public Shape() {
         name = "Shape";
+        System.out.println("In Super Constructor");
+    }
+    public Shape(String name) {
+        this.name = name;
+        System.out.println("In Super Argument C");
     }
 }
