@@ -10,5 +10,15 @@ Polygon p = new Polygon(5, "Pentagon");
 
         Polygon c = new Polygon();
         System.out.println(c);
+        System.out.println();
+        System.out.println();
+
+        Seat seat = new Seat();
+        FirstClassSeat firstClassSeat = new FirstClassSeat();
+
+        seat.fillSeat();
+        firstClassSeat.fillSeat();
+
+
     }
 }
