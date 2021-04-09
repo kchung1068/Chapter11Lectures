@@ -19,10 +19,10 @@ public class Runner {
         Animal a = new Animal();
 
         Animal m = new Fish(); // m accesses the Animal methods. It can't access the fish methods
-        System.out.println(m instanceof Fish);
+        System.out.println(m instanceof Fish); //Is m an Instance of Fish?
 
 
-//        Dog d = (Dog)(m);
+//        Dog d = (Dog)(m); // You can't do this casting. It will create an error because m is a Fish
 //        d.Bark();
 
         System.out.println(m);
